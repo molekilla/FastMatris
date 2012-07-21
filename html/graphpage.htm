@@ -1,0 +1,148 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Graph Page</title>
+<script LANGUAGE="javascript">
+<!--
+
+function ScaleLarger() {
+		graph.Scale(1.1,1.1,0);
+
+}
+
+
+function ScaleSmaller() {
+    graph.Scale(0.9,0.9,0);
+	
+}
+
+function moveDown() {
+    graph.Translate(0,10,0);
+	
+}
+function moveUp() {
+    graph.Translate(0,-10,0);
+	
+}
+
+function moveLeft() {
+    graph.Translate(-10,0,0);
+	
+}
+function moveRight() {
+    graph.Translate(10,0,0);
+	
+}
+function rotate180() {
+    graph.Rotate(180,0,0);
+	
+}
+function clear() {
+    graph.Clear;
+	
+}
+function fastClick() {
+//id Use
+var idClicked=window.event.keyCode;
+//alert(idClicked);
+//ScaleLarger
+if ((idClicked==112)||(idClicked==80)) {
+	ScaleLarger();
+}
+//ScaleSmaller
+if ((idClicked==110)||(idClicked==78)) {
+	ScaleSmaller();
+}
+//moveUp
+if ((idClicked==85)||(idClicked==117)) {
+	moveUp();
+}
+//moveDown
+if ((idClicked==68)||(idClicked==100)) {
+	moveDown();
+}
+//moveLeft
+if ((idClicked==108)||(idClicked==76)) {
+	moveLeft();
+}
+//moveRight
+if ((idClicked==114)||(idClicked==82)) {
+	moveRight();
+}
+
+}
+
+//-->
+</script>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" div align=" left" topmargin="0" leftmargin="0"
+onkeypress="fastClick()" onload="rotate180()">
+
+<table border="0" cellspacing="0" width="100%" bgcolor="#008080" cellpadding="2"
+height="80%">
+  <tr>
+    <td width="11" rowspan="10" bgcolor="#000000"></td>
+    <td width="274" rowspan="8" colspan="2" valign="top" align="center">
+    <object ID="graph"
+    STYLE="POSITION: relative; HEIGHT:300;WIDTH:250;TOP:0;LEFT:0;VISIBILITY:VISIBLE; Z-INDEX:1"
+    CLASSID="CLSID:369303C2-D7AC-11d0-89D5-00A0C90833E6" width="250" height="350">
+    </object>
+    </td>
+    <td width="133" align="center"><input type="Button" name="ScaleUp" value="Scale Up"
+    onclick="ScaleLarger()" id="ScaleUp"></td>
+    <td width="16" rowspan="8" bgcolor="#000000"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="Button" name="ScaleDown" value="Scale Down"
+    onclick="ScaleSmaller()" id="ScaleDown"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="button" name="MoveUp" value="MoveUp"
+    onclick="moveUp()" id="MoveUp"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="button" name="MoveDown" value="MoveDown"
+    onclick="moveDown()" id="MoveDown"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="Button" name="MoveLeft" value="MoveLeft"
+    onclick="moveLeft()" id="MoveLeft"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="button" name="MoveRight" value="MoveRight"
+    onclick="moveRight()" id="MoveRight"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"><input type="button" name="Clear" value="Clear"
+    style="text-align: center" id="Clear"></td>
+  </tr>
+  <tr>
+    <td width="133" align="center"></td>
+  </tr>
+  <tr>
+    <td id="Xvalue"
+    style="text-align: left; border-left: medium dotted; border-right: medium dotted; border-top: medium dotted; border-bottom: medium dashed"
+    width="135"></td>
+    <td id="Yvalue" style="text-align: left; border: medium dotted" width="135"></td>
+    <td rowspan="2" bgcolor="#000000" width="153" colspan="2"><img src="fastmat2.jpg"
+    width="145" height="55" alt="fastmat2.jpg (7323 bytes)"></td>
+  </tr>
+  <tr>
+    <td colspan="2" id="FunctionName"
+    style="text-align: center; background-color: rgb(166,166,255); color: rgb(0,64,128); font-family: Arial; font-size: 11pt; border: medium dotted"
+    width="274"></td>
+  </tr>
+</table>
+<div align="center"><center>
+
+<table border="0" cellspacing="1" width="448" height="31">
+  <tr>
+    <td id="ComboCell" width="448" height="31"
+    style="font-family: Arial; font-size: 12pt; background-color: rgb(0,128,128); color: rgb(0,0,0); text-align: left; vertical-align: baseline; border: medium ridge"></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>

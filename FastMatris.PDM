@@ -1,0 +1,388 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Msflxgrd.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\Msflxgrd.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=FastMatris
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=FastMatris
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|FastMatris]
+Icon1=fastmat.exe
+Title1=FastMatris
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package
+ProjectFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris
+ServerSideCab=
+File1=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package\setup.exe
+File2=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package\Setup.Lst
+File3=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package\fastmat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package (2)
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINNT\system32\Msflxgrd.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\invmatris.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\jac1.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\matris2por2.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\prueba.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\regsup.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\seideltest.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\tab10.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\tab11.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\tab12.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\test123.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\tables\testdominant.fst=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\bar.htm=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\red.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\red.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\rf.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\rfm.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\right.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\rootweb.htm=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\rotate.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\secante.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\seidel.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\seidel.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\up.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\webbar.htm=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gj44.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gj44.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\graphpage.htm=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\im.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\inversa.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\inversa.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\jacobi.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\jacobi.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\left.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\navbar.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\newton.gif=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\ajustcurvas.htm=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\det.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\det44.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\det44.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\down.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\fastmat2.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gauss44.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gauss44.jpg=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gausspic.bmp=
+c:\programacion\vbbackup\schoolprojects\fastmatris\html\gj.bmp=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\FastMatris.jpg=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help.htm=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help02.htm=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\main.htm=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\newmain.htm=
+C:\programacion\vbbackup\SchoolProjects\FastMatris\results.htm=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\Msflxgrd.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\InvMatris.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\jac1.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\Matris2por2.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\prueba.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\regsup.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\SeidelTest.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab10.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab11.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab12.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\test123.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\TestDominant.fst=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\bar.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RF.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RFM.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\right.JPG=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rootweb.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rotate.JPG=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\secante.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\up.JPG=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\webbar.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.bmp=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\graphpage.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\IM.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\left.JPG=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\navbar.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\newton.gif=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\ajustcurvas.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.bmp=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\down.JPG=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\fastmat2.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.bmp=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\gausspic.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\GJ.BMP=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\FastMatris.jpg=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help02.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\main.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\newmain.htm=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\results.htm=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\InvMatris.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\jac1.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\Matris2por2.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\prueba.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\regsup.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\SeidelTest.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab10.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab11.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab12.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\test123.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\TestDominant.fst=$(AppPath)\Tables
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\bar.htm=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RF.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RFM.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\right.JPG=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rootweb.htm=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rotate.JPG=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\secante.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\up.JPG=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\webbar.htm=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.bmp=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\graphpage.htm=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\IM.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\left.JPG=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\navbar.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\newton.gif=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\ajustcurvas.htm=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.bmp=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\down.JPG=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\fastmat2.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.bmp=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.jpg=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\gausspic.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\GJ.BMP=$(AppPath)\html
+C:\programacion\vbbackup\SchoolProjects\FastMatris\FastMatris.jpg=$(AppPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help.htm=$(AppPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help02.htm=$(AppPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\main.htm=$(AppPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\newmain.htm=$(AppPath)
+C:\programacion\vbbackup\SchoolProjects\FastMatris\results.htm=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\programacion\vbbackup\SchoolProjects\FastMatris\fastmat.exe=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\InvMatris.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\jac1.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\Matris2por2.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\prueba.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\regsup.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\SeidelTest.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab10.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab11.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\tab12.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\test123.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\Tables\TestDominant.fst=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\bar.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\red.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RF.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\RFM.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\right.JPG=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rootweb.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\rotate.JPG=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\secante.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\seidel.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\up.JPG=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\webbar.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.bmp=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gj44.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\graphpage.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\IM.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\inversa.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\jacobi.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\left.JPG=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\navbar.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\newton.gif=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\ajustcurvas.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.bmp=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\det44.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\down.JPG=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\fastmat2.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.bmp=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\Gauss44.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\gausspic.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\html\GJ.BMP=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\FastMatris.jpg=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\help02.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\main.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\newmain.htm=No
+C:\programacion\vbbackup\SchoolProjects\FastMatris\results.htm=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=FastMatris
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package (2)
+ProjectFolder=C:\programacion\vbbackup\SchoolProjects\FastMatris
+ServerSideCab=
+File1=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package (2)\setup.exe
+File2=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package (2)\Setup.Lst
+File3=C:\programacion\vbbackup\SchoolProjects\FastMatris\Package (2)\fastmat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=FastMatris
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|FastMatris]
+Icon1=fastmat.exe
+Title1=FastMatris
+StartIn1=$(AppPath)
+Key1=Icon1
